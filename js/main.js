@@ -212,6 +212,13 @@
 	$('input, textarea, select').placeholder()  
 
 
+	// download CV button
+	$('#downloadCV').on('click', function(e) {
+		e.preventDefault();
+		window.open('https://drive.google.com/file/d/1Z0zLl6n4ZpQV9Xu8Qk3YgK9Yg8v4y9r8/view?usp=sharing', '_blank');
+	});
+
+
   	/*---------------------------------------------------- */
 	/*	contact form
 	------------------------------------------------------ */
