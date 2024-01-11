@@ -1419,6 +1419,25 @@ header .logo a {
 	color: #cc005f;
 }
 
+.intro-social-footer {
+	display: block;
+	width: 100%;
+	font-size: 3.3rem;
+	margin: 0;
+	padding: 0;
+}
+.intro-social-footer li {
+	display: inline-block;
+	margin: 0 20px;
+	padding: 0;
+}
+.intro-social-footer li a, .intro-social-footer li a:visited {
+	color: #FFFFFF;
+}
+.intro-social-footer li a:hover, .intro-social-footer li a:focus {
+	color: #cc005f;
+}
+
 /**
  * responsive:
  * Intro
