@@ -2204,8 +2204,8 @@ header .logo a {
  */
 #stats {
 	background: #990047;
-	padding-top: 7.2rem;
-	padding-bottom: 6rem;
+	padding-top: 1.2rem;
+	padding-bottom: 2rem;
 	text-align: center;
 }
 #stats .row {
@@ -2213,7 +2213,7 @@ header .logo a {
 }
 #stats .stat {
 	border-left: 1px solid rgba(255, 255, 255, 0.12);
-	min-height: 17.4rem;
+	/* min-height: 17.4rem; */
 }
 #stats .stat:first-child {
 	border: none;
@@ -2225,7 +2225,7 @@ header .logo a {
 #stats .stat-count {
 	color: #FFFFFF;
 	font-size: 3.6rem;
-	margin-top: 1.2rem;
+	/* margin-top: 1.2rem; */
 	margin-bottom: 0;
 	font-family: "poppins-medium", sans-serif;
 	color: white;
@@ -2270,7 +2270,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #contact {
-	background: #151515;
+	background: rgba(255, 255, 255, 0.12);
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
@@ -2514,6 +2514,7 @@ footer {
 	padding-bottom: 3rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
+	text-align: center;
 }
 footer a, footer a:visited {
 	color: #FFFFFF;
