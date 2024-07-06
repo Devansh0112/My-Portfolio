@@ -261,7 +261,7 @@
 		      error: function() {
 
 		      	sLoader.fadeOut(); 
-		      	$('#message-warning').html("Something went wrong. Please try again.");
+		      	$('#message-warning').html("Something went wrong. You can also connect with me on the below platforms.");
 		         $('#message-warning').fadeIn();
 
 		      }
